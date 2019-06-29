@@ -2,7 +2,7 @@
 DJ challenge in Python for Dropgenie
 
 Run with:
-"""python3 DJ.py"""
+```python3 DJ.py```
 
 Two .txt files will be created in the same directory. One file will be a list of party-goers with their information ("party_list.txt"). Another file will be a copy of the console output ("record.txt").
 
