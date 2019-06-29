@@ -8,6 +8,9 @@ i = 0
 time_count = 0
 f = open('record.txt', 'w')
 f2 = open('party_list.txt', 'w')
+
+#DJ class
+
 class DJ():
 	def __init__(self, name, relation, song, time_count):
 		extra = 0
@@ -149,6 +152,3 @@ for key,value in people.items():
 	
 	f2.write(f'\n{key}, {relation},  {song},  (time limit: {time_limit_val} sec) ')
 	
-	
-
-# 'Supreya':'friend', 'Alex':'acquaintance', 'Marally':'acquaintance', 'Max':'friend', 'Emmy': 'enemy'}
