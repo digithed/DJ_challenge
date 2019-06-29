@@ -1,0 +1,45 @@
+Music DJ 
+
+- Context : 
+There is a wedding party and there is a DJ that is playing some songs. All of a
+sudden, he says : "I am willing to take some requests for songs to be played
+next". Then, everybody starts rushing to the DJ booth and there is just a
+massive herd of people and it is chaotic. No songs can be played since people
+are screaming left and right to play their songs. 
+
+You then come up with an idea to be able to organize better.
+
+Here are the rules :
+- if you are a friend of the DJ - the current song is skipped and your song
+  plays immediately. 
+- otherwise, it is first come first serve.
+- there is a time delay of 5 seconds between each requests
+- for each request, there is a time limit to it
+
+@ Here is the order of the people that come up to the DJ @
+
+Data text file : 
+Name, Type (friend/enemy/acquaintance), Song name, time limit
+
+Philippe, enemy, "I will goto you like the first snow, Ailee", 20
+Alison, acquaintance, "2 Hours of Celtic Music by Adrian von Ziegler", 25
+Nick, friend, "Rick and Morty - Get Schwifty", 30
+Hugo, acquaintance, "John Coltrane - Giant Steps", 20
+Suwhan, friend, "Davichi - This Love ", 30
+Joe, acquaintance, "Circle of life, Lion King", 30
+Jane, enemy, "Panic at the Disco, High Hopes", 15
+
+Requirements : 
+- print statements to know what is going on
+- comment and document your code 
+
+Example Output : 
+
+1 - Playing - I will goto you like the first snow, Ailee
+6 - Alison request
+11 - Philippe song paused
+11 - Playing - Rick and Morty - Get Schwifty
+16 - Hugo request
+21 - Nick song paused
+21 - Playing - Davichi - This Love
+etc ... 
